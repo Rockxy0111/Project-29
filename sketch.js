@@ -20,14 +20,14 @@ var options={
 }
 
 
-   polygon=Bodies.circle(130,250,20,options)
+   polygon=Bodies.circle(130,300,20,options)
    World.add(world,polygon)
 
 	ground1=new Ground(650,405,240,10)
 	ground2=new Ground(800,445,1600,10)
 	ground3=new Ground(1350,235,160,10)
 	
-	slingshot=new SlingShot(this.polygon,{x:130,y:250})
+	slingshot=new SlingShot(this.polygon,{x:130,y:300})
 
 //forth
 
